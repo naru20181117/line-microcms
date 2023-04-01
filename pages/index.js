@@ -54,7 +54,7 @@ export default function Home({ _staffs, serviceDomain, apiKey }) {
           />
           <h1 className={utilStyles.headingMd}>{profile.displayName}</h1>
           <p className={utilStyles.lightText}>
-            こんにちは、{profile.displayName}さん、しげサロンへようこそ！<br/>
+            こんにちは、{profile.displayName}さん、なるサロンへようこそ！<br/>
 
             {
               previousReservations.length != 0 ?
